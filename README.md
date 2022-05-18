@@ -1,4 +1,3 @@
-# Lipedema
 
 ## QC
 Quality control for the raw reads were performed to access the sequence quality, GC content,
