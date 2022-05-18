@@ -62,5 +62,5 @@ We have used Mutect2 to call somatic short mutations via local assembly of haplo
 Please refer to the script : Mutect2.sh
 
 ## Differentially expressed genes in lipedema study
-Please refer to the file : DEG.xls
+Please refer to the file : Lipedema_Results.xlsx
 
