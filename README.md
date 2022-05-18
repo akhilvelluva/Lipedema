@@ -2,7 +2,7 @@
 ## QC
 Quality control for the raw reads was performed to access the sequence quality, GC content, the presence of adaptors, and the read length.
 
-Please refer to the script: qc.sh
+Please refer to the script: QC.sh
 
 ## Mapping
 We have used BWA, a software package for mapping low-divergent sequences against a large reference genome, such as the human genome. The BWA-MEM algorithm, which is the latest, is generally recommended for high-quality queries as it is faster and more accurate.
