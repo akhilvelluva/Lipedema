@@ -59,7 +59,7 @@ Please refer to the script : Leafcutter.sh
 ## Somatic variants discovery
 We have used Mutect2 to call somatic short mutations via local assembly of haplotypes. Short mutations include single nucleotide (SNA) and insertion and deletion (indel) alterations.
 
-Please refer to the script : Mutect2.sh
+Please refer to the script : Mutect2.sh and also reffer the folder Variant_Calling for step by step scripts
 
 # Differentially expressed genes in lipedema study
 Please refer to the file : Lipedema_Results.xlsx
