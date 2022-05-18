@@ -25,7 +25,7 @@ Please refer to the script : SnpEff.sh
 We developed a custom script that helps to grep the gnomAD allele frequency from the variant of interest.
 
 
-Please refer to the script : SnpEff.sh
+Please refer to the script : gnomAD.sh
 
 # Rna seq analysis
 ## Spliced Transcripts Alignment with STAR
