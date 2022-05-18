@@ -32,7 +32,7 @@ Please refer to the script : gnomAD.sh
 To determine where on the genome our reads originated from, we aligned our reads to the reference genome using STAR (Spliced Transcripts Alignment to a Reference). STAR is an aligner designed to specifically address many of the challenges of RNA-seq data mapping using a strategy to account for spliced alignments
 
 
-Please refer to the script : STAR.sh
+Please refer to the script : STAR_Index.sh & STAR.sh 
 ## Counting reads
 HTSeq is a Python package that calculates the number of mapped reads to each gene.
 
