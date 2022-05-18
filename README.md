@@ -1,4 +1,4 @@
-
+# Genome analysis
 ## QC
 Quality control for the raw reads was performed to access the sequence quality, GC content, the presence of adaptors, and the read length.
 
