@@ -26,10 +26,17 @@ Please refer the script : SnpEff.sh
 ## Spliced Transcripts Alignment with STAR
 To determine where on the genome our reads originated from, we will align our reads to the reference genome using STAR (Spliced Transcripts Alignment to a Reference). STAR is an aligner designed to specifically address many of the challenges of RNA-seq data mapping using a strategy to account for spliced alignments
 Please refer the script : STAR.sh
-htseq for gene counts
-potentially strelka for the tpms
-DESeq/or what Linnaeus used, go enrichment
-Leafcutter for the splicing
-mutect for somatic variant calling.
+## Counting reads
+HTSeq is a Python package that calculates the number of mapped reads to each gene.
+Please refer the script : HTSeq.sh
+## Transcript assembly and quantification
+We have assembled the RNA-Seq alignments into potential transcripts and quatified using StringTie.
+Please refer the script : StringTie.sh
+## Differential expression Analysis
+We have used the R package DESeq2 to analyse count data from high-throughput sequencing assays and test for differential expressions.
+Please refer the script : StringTie.sh
+## go enrichment
+## Leafcutter for the splicing
+## mutect for somatic variant calling.
 
 the 837 genes we identified to be DE in lipedema
