@@ -8,6 +8,7 @@ Please refer the script : qc.sh
 ## Mapping
 We have used BWA, a software package for mapping low-divergent sequences against a large reference genome, such as the human genome. The
 BWA-MEM algorithm, which is the latest, is generally recommended for high-quality queries as it is faster and more accurate.
+
 Please refer the script : BWA-MEM.sh
 
 ## Variant detecting
@@ -53,7 +54,16 @@ Please refer the script : StringTie.sh
 Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up- and down-regulated DEGs. GO nodes with a family wise error rate (FWER) <0.05 were considered significantly enriched. To check for unspecific GO enrichment analysis results, the four control subjects were split in two groups and differential gene expression and GO enrichment analyses were performed for those two control groups.
 
 Please refer to the Pipeline: https://rpubs.com/Akhil_Velluva/GOfuncR
-## Leafcutter for the splicing
-## mutect for somatic variant calling.
+## Quantification of RNA splicing
+The tool Leafcutter quantifies RNA splicing variation using short-read RNA-seq data. The core idea is to leverage spliced reads (reads that span an intron) to quantify (differential) intron usage across samples.
 
-the 837 genes we identified to be DE in lipedema
+Please refer the script : Leafcutter.sh
+
+## Somatic variants discovery
+We have used Mutect2 to call somatic short mutations via local assembly of haplotypes. Short mutations include single nucleotide (SNA) and insertion and deletion (indel) alterations.
+
+Please refer the script : Mutect2.sh
+
+## Differentially expressed genes in lipedema study
+lease refer the file : DEG.xls
+
