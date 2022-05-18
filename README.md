@@ -46,7 +46,8 @@ Please refer to the scriptt : StringTie.sh
 We have used the R package DESeq2 to analyze count data from high-throughput sequencing assays and test for differential expressions.
 
 
-Please refer to the script : DESeq2.R
+Please refer to the script : DESeq2.R and also refer to the folder DEG for step by step guidelines.
+
 ## Gene ontology enrichment
 Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up-and down-regulated DEGs. GO nodes with a family-wise error rate (FWER) <0.05 were considered significantly enriched. To check for unspecific GO enrichment analysis results, the four control subjects were split into two groups, and differential gene expression and GO enrichment analyses were performed for those two control groups.
 
@@ -59,7 +60,7 @@ Please refer to the script : Leafcutter.sh
 ## Somatic variants discovery
 We have used Mutect2 to call somatic short mutations via local assembly of haplotypes. Short mutations include single nucleotide (SNA) and insertion and deletion (indel) alterations.
 
-Please refer to the script : Mutect2.sh and also reffer the folder Variant_Calling for step by step scripts
+Please refer to the script : Mutect2.sh and also refer to the folder Variant_Calling for step by step guidelines.
 
 # Differentially expressed genes in lipedema study
 Please refer to the file : Lipedema_Results.xlsx
