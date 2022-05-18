@@ -46,7 +46,7 @@ Please refer to the scriptt : StringTie.sh
 We have used the R package DESeq2 to analyze count data from high-throughput sequencing assays and test for differential expressions.
 
 
-Please refer to the script : StringTie.sh
+Please refer to the script : DESeq2.R
 ## Gene ontology enrichment
 Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up-and down-regulated DEGs. GO nodes with a family-wise error rate (FWER) <0.05 were considered significantly enriched. To check for unspecific GO enrichment analysis results, the four control subjects were split into two groups, and differential gene expression and GO enrichment analyses were performed for those two control groups.
 
