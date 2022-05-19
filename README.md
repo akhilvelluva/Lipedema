@@ -49,7 +49,7 @@ We have used the R package DESeq2 to analyze count data from high-throughput seq
 Please refer to the script : DESeq2.R and also refer to the folder DEG for step by step guidelines.
 
 ## Gene ontology enrichment
-Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up-and down-regulated DEGs. GO nodes with a family-wise error rate (FWER) <0.05 were considered significantly enriched. To check for unspecific GO enrichment analysis results, the four control subjects were split into two groups, and differential gene expression and GO enrichment analyses were performed for those two control groups.
+Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up-and down-regulated DEGs. GO nodes with a family-wise error rate (FWER) <0.05 were considered significantly enriched.
 
 Please refer to the Pipeline: https://rpubs.com/Akhil_Velluva/GOfuncR
 ## Quantification of RNA splicing
